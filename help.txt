@@ -1,0 +1,322 @@
+Tuần  1
+Giá trị danh mục đầu tư: 1012603.06
+Lãi/Lỗ so với tuần trước: 0.13217061350369114
+Lãi/lỗ so với số tiền ban đầu: 0.13217061350369114
+Rủi ro: 0.3345567589055956
+--------
+Tuần  2
+Giá trị danh mục đầu tư: 1097303.55
+Lãi/Lỗ so với tuần trước: 0.08364629077854059
+Lãi/lỗ so với số tiền ban đầu: 0.22687248585173958
+Rủi ro: 0.33406246497947006
+--------
+Tuần  3
+Giá trị danh mục đầu tư: 1211755.65
+Lãi/Lỗ so với tuần trước: 0.10430304358351876
+Lãi/lỗ so với số tiền ban đầu: 0.35483902021495356
+Rủi ro: 0.3337935482358776
+--------
+Tuần  4
+Giá trị danh mục đầu tư: 1332585.8
+Lãi/Lỗ so với tuần trước: 0.09971494665611846
+Lãi/lỗ so với số tiền ban đầu: 0.48993672084331547
+Rủi ro: 0.33439849256390936
+--------
+Tuần  5
+Giá trị danh mục đầu tư: 1458646.0399999998
+Lãi/Lỗ so với tuần trước: 0.09459821649007498
+Lãi/lỗ so với số tiền ban đầu: 0.6308820773181638
+Rủi ro: 0.3335153423430432
+--------
+Tuần  6
+Giá trị danh mục đầu tư: 1566689.52
+Lãi/Lỗ so với tuần trước: 0.07407107484417551
+Lãi/lỗ so với số tiền ban đầu: 0.751683265729222
+Rủi ro: 0.33259383672471704
+--------
+Tuần  7
+Giá trị danh mục đầu tư: 1710631.65
+Lãi/Lỗ so với tuần trước: 0.09187661509346146
+Lãi/lỗ so với số tiền ban đầu: 0.9126219949002833
+Rủi ro: 0.3316369943945161
+--------
+Tuần  8
+Giá trị danh mục đầu tư: 1866394.56
+Lãi/Lỗ so với tuần trước: 0.09105578632313985
+Lãi/lỗ so với số tiền ban đầu: 1.0867772945848608
+Rủi ro: 0.3306236302827845
+--------
+Tuần  9
+Giá trị danh mục đầu tư: 1985752.93
+Lãi/Lỗ so với tuần trước: 0.06395130620183541
+Lãi/lỗ so với số tiền ban đầu: 1.2202294283258952
+Rủi ro: 0.329677975391546
+--------
+Tuần  10
+Giá trị danh mục đầu tư: 2124250.92
+Lãi/Lỗ so với tuần trước: 0.06974583187446184
+Lãi/lỗ so với số tiền ban đầu: 1.3750811767566453
+Rủi ro: 0.32886185791916217
+--------
+Tuần  11
+Giá trị danh mục đầu tư: 2254484.1
+Lãi/Lỗ so với tuần trước: 0.061307813862215566
+Lãi/lỗ so với số tiền ban đầu: 1.5206922114488937
+Rủi ro: 0.32807220091330813
+--------
+Tuần  12
+Giá trị danh mục đầu tư: 2438284.62
+Lãi/Lỗ so với tuần trước: 0.08152664283593751
+Lãi/lỗ so với số tiền ban đầu: 1.726195785071017
+Rủi ro: 0.3271590990079498
+--------
+Tuần  13
+Giá trị danh mục đầu tư: 2591481.4000000004
+Lãi/Lỗ so với tuần trước: 0.06282973642346981
+Lãi/lỗ so với số tiền ban đầu: 1.8974819476858036
+Rủi ro: 0.3262963408015637
+--------
+Tuần  14
+Giá trị danh mục đầu tư: 2658664.25
+Lãi/Lỗ so với tuần trước: 0.025924496313189674
+Lãi/lỗ so với số tiền ban đầu: 1.9725977077561176
+Rủi ro: 0.3261440590422204
+--------
+Tuần  15
+Giá trị danh mục đầu tư: 2730883.5300000003
+Lãi/Lỗ so với tuần trước: 0.027163745854708904
+Lãi/lỗ so với số tiền ban đầu: 2.053344596417895
+Rủi ro: 0.32527243666626354
+--------
+Tuần  16
+Giá trị danh mục đầu tư: 2827999.44
+Lãi/Lỗ so với tuần trước: 0.03556208418745697
+Lãi/lỗ so với số tiền ban đầu: 2.1619278940090254
+Rủi ro: 0.32437390821178586
+--------
+Tuần  17
+Giá trị danh mục đầu tư: 2894922.16
+Lãi/Lỗ so với tuần trước: 0.023664332833107
+Lãi/lỗ so với số tiền ban đầu: 2.23675280808714
+Rủi ro: 0.32370015149087894
+--------
+Tuần  18
+Giá trị danh mục đầu tư: 2954238.57
+Lãi/Lỗ so với tuần trước: 0.020489811719151606
+Lãi/lỗ so với số tiền ban đầu: 2.3030732637062807
+Rủi ro: 0.32305372517385295
+--------
+Tuần  19
+Giá trị danh mục đầu tư: 3192444.97
+Lãi/Lỗ so với tuần trước: 0.08063207975786478
+Lãi/lỗ so với số tiền ban đầu: 2.569406930551516
+Rủi ro: 0.32223002162405967
+--------
+Tuần  20
+Giá trị danh mục đầu tư: 3397875.6799999997
+Lãi/Lỗ so với tuần trước: 0.06434902149621062
+Lãi/lỗ so với số tiền ban đầu: 2.799094773854299
+Rủi ro: 0.32135030986779994
+--------
+Tuần  21
+Giá trị danh mục đầu tư: 3433545.97
+Lãi/Lỗ so với tuần trước: 0.010497820803143836
+Lãi/lỗ so với số tiền ban đầu: 2.8389769900043818
+Rủi ro: 0.32214702483471125
+--------
+Tuần  22
+Giá trị danh mục đầu tư: 3572974.79
+Lãi/Lỗ so với tuần trước: 0.040607820957760415
+Lãi/lỗ so với số tiền ban đầu: 2.9948694802754416
+Rủi ro: 0.3215916918762748
+--------
+Tuần  23
+Giá trị danh mục đầu tư: 3629892.3
+Lãi/Lỗ so với tuần trước: 0.01593000604406721
+Lãi/lỗ so với số tiền ban đầu: 3.058507775241489
+Rủi ro: 0.3216508645746742
+--------
+Tuần  24
+Giá trị danh mục đầu tư: 3620197.96
+Lãi/Lỗ so với tuần trước: -0.0026706963179044876
+Lãi/lỗ so với số tiền ban đầu: 3.0476687334699646
+Rủi ro: 0.3214635316960332
+--------
+Tuần  25
+Giá trị danh mục đầu tư: 3774063.8000000003
+Lãi/Lỗ so với tuần trước: 0.04250205146240133
+Lãi/lỗ so với số tiền ban đầu: 3.219702958282658
+Rủi ro: 0.3206006499320475
+--------
+Tuần  26
+Giá trị danh mục đầu tư: 3997264.38
+Lãi/Lỗ so với tuần trước: 0.0591406483377413
+Lãi/lỗ so với số tiền ban đầu: 3.4692589270281795
+Rủi ro: 0.32032710256806973
+--------
+Tuần  27
+Giá trị danh mục đầu tư: 4154165.15
+Lãi/Lỗ so với tuần trước: 0.03925203716447698
+Lãi/lỗ so với số tiền ban đầu: 3.64468644452956
+Rủi ro: 0.31965859526503165
+--------
+Tuần  28
+Giá trị danh mục đầu tư: 4262752.0
+Lãi/Lỗ so với tuần trước: 0.026139271328680828
+Lãi/lỗ so với số tiền ban đầu: 3.766095163739764
+Rủi ro: 0.31880477255625794
+--------
+Tuần  29
+Giá trị danh mục đầu tư: 4471460.7
+Lãi/Lỗ so với tuần trước: 0.04896102330137906
+Lãi/lỗ so với số tiền ban đầu: 3.9994480601082167
+Rủi ro: 0.318125426013098
+--------
+Tuần  30
+Giá trị danh mục đầu tư: 4630652.32
+Lãi/Lỗ so với tuần trước: 0.035601703935360565
+Lãi/lỗ so với số tiền ban đầu: 4.177436929784402
+Rủi ro: 0.3172968806901052
+--------
+Tuần  31
+Giá trị danh mục đầu tư: 4443809.1
+Lãi/Lỗ so với tuần trước: -0.04034922233159596
+Lãi/lỗ so với số tiền ban đầu: 3.9685313759967156
+Rủi ro: 0.3164900645617737
+--------
+Tuần  32
+Giá trị danh mục đầu tư: 4701501.0
+Lãi/Lỗ so với tuần trước: 0.05798896716782915
+Lãi/lỗ so với số tiền ban đầu: 4.256651378831718
+Rủi ro: 0.3157234022085597
+--------
+Tuần  33
+Giá trị danh mục đầu tư: 4997911.26
+Lãi/Lỗ so với tuần trước: 0.06304587832694278
+Lãi/lỗ so với số tiền ban đầu: 4.588061582068699
+Rủi ro: 0.314977517094128
+--------
+Tuần  34
+Giá trị danh mục đầu tư: 5206911.81
+Lãi/Lỗ so với tuần trước: 0.041817579210079815
+Lãi/lỗ so với số tiền ban đầu: 4.82174078990766
+Rủi ro: 0.3143918614179954
+--------
+Tuần  35
+Giá trị danh mục đầu tư: 5470283.2
+Lãi/Lỗ so với tuần trước: 0.05058111210836901
+Lãi/lỗ so với số tiền ban đầu: 5.116210913467844
+Rủi ro: 0.3135948326350817
+--------
+Tuần  36
+Giá trị danh mục đầu tư: 5269645.38
+Lãi/Lỗ so với tuần trước: -0.036677775658854425
+Lãi/lỗ so với số tiền ban đầu: 4.891881901701434
+Rủi ro: 0.3139594729549863
+--------
+Tuần  37
+Giá trị danh mục đầu tư: 5169296.0
+Lãi/Lỗ so với tuần trước: -0.019042909487013697
+Lãi/lỗ so với số tiền ban đầu: 4.779683327939159
+Rủi ro: 0.3133469285311136
+--------
+Tuần  38
+Giá trị danh mục đầu tư: 5449499.44
+Lãi/Lỗ so với tuần trước: 0.05420533859929871
+Lãi/lỗ so với số tiền ban đầu: 5.092973019726823
+Rủi ro: 0.31294995344255194
+--------
+Tuần  39
+Giá trị danh mục đầu tư: 5539518.0
+Lãi/Lỗ so với tuần trước: 0.016518684145419342
+Lãi/lỗ so với số tiền ban đầu: 5.193620916546252
+Rủi ro: 0.3121451144311365
+--------
+Tuần  40
+Giá trị danh mục đầu tư: 5570677.46
+Lãi/Lỗ so với tuần trước: 0.005624940653681415
+Lãi/lỗ so với số tiền ban đầu: 5.228459666633225
+Rủi ro: 0.3138434488704568
+--------
+Tuần  41
+Giá trị danh mục đầu tư: 5973599.17
+Lãi/Lỗ so với tuần trước: 0.07232903231126937
+Lãi/lỗ so với số tiền ban đầu: 5.678958127110577
+Rủi ro: 0.3131534714687791
+--------
+Tuần  42
+Giá trị danh mục đầu tư: 6163418.76
+Lãi/Lỗ so với tuần trước: 0.03177641897255049
+Lãi/lỗ so với số tiền ban đầu: 5.891191498857764
+Rủi ro: 0.31300612466359623
+--------
+Tuần  43
+Giá trị danh mục đầu tư: 6183774.96
+Lãi/Lỗ so với tuần trước: 0.003302744920093696
+Lãi/lỗ so với số tiền ban đầu: 5.9139513465740094
+Rủi ro: 0.3122524631205616
+--------
+Tuần  44
+Giá trị danh mục đầu tư: 6118934.4
+Lãi/Lỗ so với tuần trước: -0.01048559503206753
+Lãi/lỗ so với số tiền ban đầu: 5.841454452682417
+Rủi ro: 0.31238564453738293
+--------
+Tuần  45
+Giá trị danh mục đầu tư: 6616481.6
+Lãi/Lỗ so với tuần trước: 0.08131272007099785
+Lãi/lỗ so với số tiền ban đầu: 6.397751723471863
+Rủi ro: 0.31258998011618194
+--------
+Tuần  46
+Giá trị danh mục đầu tư: 6869170.6899999995
+Lãi/Lỗ so với tuần trước: 0.03819085509132223
+Lãi/lỗ so với số tiền ban đầu: 6.680278187544557
+Rủi ro: 0.3122221655741
+--------
+Tuần  47
+Giá trị danh mục đầu tư: 7283887.2
+Lãi/Lỗ so với tuần trước: 0.060373592201419114
+Lãi/lỗ so với số tiền ban đầu: 7.1439641708328265
+Rủi ro: 0.3115489769273755
+--------
+Tuần  48
+Giá trị danh mục đầu tư: 7355123.68
+Lãi/Lỗ so với tuần trước: 0.009780008674489016
+Lãi/lỗ so với số tiền ban đầu: 7.223612211068299
+Rủi ro: 0.31144898131034826
+--------
+Tuần  49
+Giá trị danh mục đầu tư: 7762793.98
+Lãi/Lỗ so với tuần trước: 0.05542670901762467
+Lãi/lỗ so với số tiền ban đầu: 7.6794199721649665
+Rủi ro: 0.3115102156260307
+--------
+Tuần  50
+Giá trị danh mục đầu tư: 8065053.0
+Lãi/Lỗ so với tuần trước: 0.03893688545370871
+Lãi/lỗ so với số tiền ban đầu: 8.017369553425786
+Rủi ro: 0.31110227342285596
+--------
+Tuần  51
+Giá trị danh mục đầu tư: 8015863.390000001
+Lãi/Lỗ so với tuần trước: -0.006099105610341235
+Lãi/lỗ so với số tiền ban đầu: 7.962371664191966
+Rủi ro: 0.31145544251465185
+--------
+Tuần  52
+Giá trị danh mục đầu tư: 8270733.77
+Lãi/Lỗ so với tuần trước: 0.03179574895424945
+Lãi/lỗ so với số tiền ban đầu: 8.247336983661294
+Rủi ro: 0.3107026391648055
+--------
+Tuần  53
+Giá trị danh mục đầu tư: 8264598.0
+Lãi/Lỗ so với tuần trước: -0.0007418652529060373
+Lãi/lỗ so với số tiền ban đầu: 8.2404767056712
+Rủi ro: 0.3099844574735642
+--------
+Lợi nhuận thực tế (VND): 7264598.0
+Lợi nhuận thực tế (%) 7.264598
+Độ rủi ro vào cuối năm 2024: 0.3099844574735642
+Tỉ suất Sharpe: 23.435362079789222
