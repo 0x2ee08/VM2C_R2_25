@@ -40,7 +40,7 @@ import pandas as pd
 # ------------------------------------------------------------
 FOLDER_1W: Path | str = "US_1W"         # weekly bars, 2021‑2023
 FOLDER_2024: Path | str = "US_2024"     # 2024 data (any frequency)
-SHARES_FILE: Path | str | None = "shares_input.csv"  # optional manual holdings
+SHARES_FILE: Path | str | None = "shares_us.csv"  # optional manual holdings
 ANNUAL_FACTOR: int = 52                  # 1 week = 1/52 year
 RISK_TARGET: float = 0.20                # 20 % annual volatility cap
 ALLOW_SHORT: bool = False                # allow short sales in optimiser
