@@ -9,13 +9,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-FOLDER_1W: Path | str = "US_1W"         # weekly bars, 2021‑2023
-FOLDER_2024: Path | str = "US_2024"     # 2024 data (any frequency)
+FOLDER_1W: Path | str = "VN_1W"         # weekly bars, 2021‑2023
+FOLDER_2024: Path | str = "VN_2025"     # 2024 data (any frequency)
 SHARES_FILE: Path | str | None = "share_t2_us.csv"  # optional manual holdings
 ANNUAL_FACTOR: int = 52                  # 1 week = 1/52 year
 RISK_TARGET: float = 0.20               # 20 % annual volatility cap
 ALLOW_SHORT: bool = False                # allow short sales in optimiser
-CAPITAL_START: float = 1_000_000.0  # VND 25 billion at end‑2023
+CAPITAL_START: float = 25_500_000_000.0  # VND 25 billion at end‑2023
 
 folder_path = Path(FOLDER_1W)
 if not folder_path.is_dir():
@@ -208,7 +208,7 @@ sigma_pct = 0
 print(P_start)
 P_prev = P_start
 leftMoney = CAPITAL_START - P_start
-for ii in range(1, 54):
+for ii in range(1, 22):
     # mu_weekly_pct_ewma = returns_df.ewm(span=100, adjust=False).mean().iloc[-1]
     # mu_weekly_pct = returns_df.mean(skipna=True)
     # mu_annual_pct = mu_weekly_pct_ewma * ANNUAL_FACTOR #Try no ewma?
@@ -265,7 +265,7 @@ for ii in range(1, 54):
     init_price = hatcaicc[ii]
     # print(init_price)
     # break
-P_start = 1_000_000
+P_start = 25_500_000_000
 P_end   = P_prev
 profit_vnd = P_prev - P_start
 profit_pct = profit_vnd / P_start if P_start else float("nan")
