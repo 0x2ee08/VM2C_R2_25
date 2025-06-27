@@ -9,13 +9,14 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-FOLDER_1W: Path | str = "VN_1W"         # weekly bars, 2021‑2023
-FOLDER_2024: Path | str = "VN_2024"     # 2024 data (any frequency)
+FOLDER_1W: Path | str = "US_1W"         # weekly bars, 2021‑2023
+FOLDER_2024: Path | str = "US_2024"     # 2024 data (any frequency)
 SHARES_FILE: Path | str | None = "share_t2_us.csv"  # optional manual holdings
 ANNUAL_FACTOR: int = 52                  # 1 week = 1/52 year
-RISK_TARGET: float = 0.20               # 20 % annual volatility cap
+RISK_TARGET: float = 0.30               # 20 % annual volatility cap
 ALLOW_SHORT: bool = False                # allow short sales in optimiser
-CAPITAL_START: float = 25_500_000_000.0  # VND 25 billion at end‑2023
+CAPITAL_START: float = 1_000_000.0  # VND 25 billion at end‑2023
+aaaalmao = CAPITAL_START
 
 folder_path = Path(FOLDER_1W)
 if not folder_path.is_dir():
@@ -214,12 +215,9 @@ else:
     holding_mode = "Optimiser"
 
 
-P_start = sum(a_shares[s] * init_price[s] for s in symbols)
-w_actual = np.array([a_shares[s] * init_price[s] / P_start for s in symbols])
-sigma_pct = 0
-print(P_start)
-P_prev = P_start
-leftMoney = CAPITAL_START - P_start
+prevCS = CAPITAL_START
+P_prev = sum(a_shares[s] * init_price[s] for s in symbols)#Tong tien mua co phieu
+
 for ii in range(1, 54):
     # mu_weekly_pct_ewma = returns_df.ewm(span=100, adjust=False).mean().iloc[-1]
     # mu_weekly_pct = returns_df.mean(skipna=True)
@@ -230,6 +228,9 @@ for ii in range(1, 54):
     returns_last_100 = returns_df.tail(200)
     mu_weekly_pct = returns_last_100.mean(skipna=True)
     mu_annual_pct = mu_weekly_pct * ANNUAL_FACTOR
+
+    P_now = sum(a_shares[s] * price[s].iloc[ii] for s in symbols)
+    CAPITAL_START += (P_now - P_prev)
 
     summary = pd.DataFrame({
         "mu_annual_%": mu_annual_pct,
@@ -252,37 +253,39 @@ for ii in range(1, 54):
     ret_opt = float(μ_vec @ w_opt)
     sig_opt = float(np.sqrt(w_opt @ Σ_annual.values @ w_opt))
 
-    # print(w_opt, ret_opt, sig_opt)
-    CAPITAL_START = P_prev + leftMoney
-
     a_shares = {s: CAPITAL_START * w // init_price[s] for s, w in zip(symbols, w_opt)}
     holding_mode = "Optimiser"
 
-    P_next = sum(a_shares[s] * price[s].iloc[ii] for s in symbols)
+    P_prev = sum(a_shares[s] * price[s].iloc[ii] for s in symbols)
     
     print("Tuần ", ii)
-    print("Giá trị danh mục đầu tư:", P_next)
-    print("Lãi/Lỗ so với tuần trước:", (P_next - P_prev)/P_prev)
-    print("Lãi/lỗ so với số tiền ban đầu:", (P_next - P_start)/P_start)
-    P_prev = P_next
+    print("Giá trị danh mục đầu tư:", CAPITAL_START)
+    print("Lãi/Lỗ so với tuần trước:", (CAPITAL_START - prevCS)/prevCS)
+    print("Lãi/lỗ so với số tiền ban đầu:", (CAPITAL_START - aaaalmao)/aaaalmao)
+    prevCS = CAPITAL_START
+
+
     new_index = len(returns_df)  # next available row index
     returns_df.loc[new_index] = returns_df_24.iloc[ii - 1]
 
-    returns_dec_weekly = returns_df.div(100)            # % → decimal
+    returns_dec_weekly = returns_df.div(100)
     Σ_annual = returns_dec_weekly.cov(ddof=0) * ANNUAL_FACTOR
-    sigma_actual = float(np.sqrt(w_actual @ Σ_annual.values @ w_actual))
+    sigma_actual = float(np.sqrt(w_opt @ Σ_annual.values @ w_opt))
     sigma_pct = sigma_actual
     print("Rủi ro:", sigma_actual)
     print("--------")
+
     init_price = hatcaicc[ii]
     # print(init_price)
     # break
-P_start = 25_500_000_000
-P_end   = P_prev
-profit_vnd = P_prev - P_start
-profit_pct = profit_vnd / P_start if P_start else float("nan")
+# 
+# print("CAPITAL_START", CAPITAL_START)
+# P_start = 1_000_000
+# P_end   = P_prev
+profit_vnd = CAPITAL_START - aaaalmao
+profit_pct = profit_vnd / aaaalmao if aaaalmao else float("nan")
 print("Lợi nhuận thực tế (VND):", profit_vnd)
 print("Lợi nhuận thực tế (%)", profit_pct)
 print("Độ rủi ro vào cuối năm 2024:", sigma_pct)
 print("Tỉ suất Sharpe:", profit_pct/sigma_pct)
-# End of file
+# # End of file
